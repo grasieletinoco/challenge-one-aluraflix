@@ -1,0 +1,24 @@
+label{
+    display: block;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+input, select{
+    display: block;
+    width: 100%;
+    height: 62px;
+    border: 0;
+    border: 3px solid var(--lightGray);
+    border-radius: 10px;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+::placeholder, select{
+    color: var(--lightGray);
+    font-size: 1rem;
+}

@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    height: 125px;
+    background-color: var(--black);
+    border-bottom: 1px solid var(--blue);
+}
+
+.HeaderContainer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.logo{
+    height: 40px;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+}
+
+
+@media (max-width: 1024px) {
+    .HeaderContainer{
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .HeaderContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav{
+        width: 100%;
+    }
+}

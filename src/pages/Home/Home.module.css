@@ -1,0 +1,51 @@
+.container{
+    margin: 4rem auto;
+    max-width: 1440px;
+    width: 100%;
+
+}
+
+.categoryTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 432px;
+    height: 70px;
+    font-size: 2rem;
+    color: var(--white);
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 0;
+    gap: 30px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+
+@media (max-width: 1024px) {
+    .categoryTitle{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .categoryTitle{
+        width: 350px;
+    }
+}
+
+@media (max-width: 320px) {
+    .categoryTitle{
+        width: 300px;
+    }
+}

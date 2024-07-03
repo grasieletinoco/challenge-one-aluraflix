@@ -1,0 +1,18 @@
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    width: 180px;
+    height: 54px;
+}
+
+.linkDestacado{
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    box-shadow: var(--blue) 1px 0px 8px 3px inset;
+}
